@@ -9,6 +9,7 @@ import project1 from "../../public/images/projects/LanguageExpress.PNG"
 import project2 from "../../public/images/projects/ToyVerse.PNG"
 import project3 from "../../public/images/projects/ItalianCuisine.PNG"
 import { motion } from 'framer-motion';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -95,6 +96,7 @@ const projects = () => {
                 <title>LokmanMujahid | Projects Page</title>
                 <meta name="description" content='any description' />
             </Head>
+            <TransitionEffect/>
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Imagination Reigns Supreme over Knowledge!"
