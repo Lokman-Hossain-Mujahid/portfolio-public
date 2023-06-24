@@ -5,9 +5,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import project1 from "../../public/images/projects/languageexpress.png"
-import project2 from "../../public/images/projects/toyverse.png"
-import project3 from "../../public/images/projects/italiancuisine.png"
+import project1 from "../../public/images/projects/language-express.jpg"
+import project2 from "../../public/images/projects/toy-verse.jpg"
+import project3 from "../../public/images/projects/italian-cuisine.jpg"
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
