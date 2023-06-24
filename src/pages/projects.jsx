@@ -5,9 +5,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import project1 from "../../public/images/projects/LanguageExpress.PNG"
-import project2 from "../../public/images/projects/ToyVerse.PNG"
-import project3 from "../../public/images/projects/ItalianCuisine.PNG"
+// import project1 from "../../public/images/projects/LanguageExpress.PNG"
+// import project2 from "../../public/images/projects/ToyVerse.PNG"
+// import project3 from "../../public/images/projects/ItalianCuisine.PNG"
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -107,7 +107,7 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="Language Express"
-                                img={project1}
+                                // img={project1}
                                 summary="This project is a web application with three user roles (Student, Instructor, Admin). The UI/UX adapts based on the role, while data is stored in MongoDB and accessed using Axios and TanStack Query. Authentication is handled through Firebase, ensuring protected routes based on user roles. The application provides secure CRUD operations and leverages Node.js and Express for server-side functionality."
                                 link="https://language-express-client.web.app"
                                 github="https://github.com/Lokman-Hossain-Mujahid/Language-Express"
@@ -117,7 +117,7 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Toy Verse"
-                                img={project2}
+                                // img={project2}
                                 summary="I have demonstrated expertise in React development, specifically focusing on MongoDB CRUD operations. I have successfully implemented Firebase authentication and a robust profile update system in my projects. These projects showcase my skills in developing applications using React, MongoDB, and Firebase, enabling efficient data management and delivering an enhanced user experience."
                                 link="https://toy-verse-client.web.app/"
                                 github="https://github.com/Lokman-Hossain-Mujahid/toyverse-client"
@@ -127,7 +127,7 @@ const projects = () => {
                         <div className='col-span-6 md:col-span-12'>
                             <Project
                                 title="Italian Cuisine's"
-                                img={project3}
+                                // img={project3}
                                 summary="In my projects, I have developed dynamic user interfaces using React and seamlessly integrated server-side data through a Node.js and Express API. I have also implemented Firebase authentication to enhance security and enable user profile updates. By leveraging technologies such as React, Node.js, Express, and Firebase, I have created robust and interactive web applications with efficient data handling capabilities."
                                 link="https://chef-s-cuisine-client.web.app/"
                                 github="https://github.com/Lokman-Hossain-Mujahid/chefs-cuisine"
