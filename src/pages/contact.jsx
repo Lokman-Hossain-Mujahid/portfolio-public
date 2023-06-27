@@ -136,14 +136,19 @@ const Contact = () => {
                                 )}
                             </p>
                             <p className="text-center">
-                                <button
+                                <Button
                                     type="submit"
-                                    className={`bg-${isSubmitting || !formState.isValid ? 'gray' : 'blue'}-500 hover:bg-${isSubmitting || !formState.isValid ? 'gray' : 'blue'
-                                        }-600 outline text-white font-semibold py-2 px-4 rounded`}
+                                    bg={isSubmitting || !formState.isValid ? 'gray.500' : 'blue.500'}
+                                    _hover={{ bg: isSubmitting || !formState.isValid ? 'gray.600' : 'blue.600' }}
+                                    color="white"
+                                    fontWeight="semibold"
+                                    py={2}
+                                    px={4}
+                                    rounded="md"
                                     disabled={isSubmitting || !formState.isValid}
                                 >
                                     Submit
-                                </button>
+                                </Button>
                             </p>
 
                         </form>
