@@ -37,7 +37,7 @@ export default function Home() {
                 <Link href="./resume.pdf" target={'_blank'} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base' 
                 download={true}
                 >Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
-                <Link href="lokmanmujahid4@gmail.com" target={'_blank'} className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'>Contact</Link>
+                <Link href="/contact" className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'>Contact</Link>
               </div>
             </div>
           </div>
