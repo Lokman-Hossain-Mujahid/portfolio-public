@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className='w-1/2 md:w-full'>
-              <Image src={profilePic} alt='Mujahid' className='w-1/2 mx-auto rounded-full border-4 border-black dark:border-light h-auto lg:hidden md:inline-block md:w-full' priority 
+              <Image src={profilePic} alt='Mujahid' className='w-1/2 mx-auto rounded-full border-4 border-black dark:border-light h-auto lg:hidden md:inline-block md:w-full' priority  
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>

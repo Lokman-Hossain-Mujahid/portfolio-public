@@ -21,7 +21,7 @@ const schema = yup.object().shape({
     message: yup.string().required('Message is required'),
 });
 
-const contact = () => {
+const Contact = () => {
     const toast = useToast();
     const form = useRef();
     const { register, handleSubmit, formState, reset } = useForm({
@@ -157,4 +157,4 @@ const contact = () => {
     );
 };
 
-export default contact;
+export default Contact;
